@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif !important;/* Familia de fonte para bloco 2 */
+    background-color: #121313;
+  }
+
+.saldo{
+    width: 500px;
+    min-height: 150px;    
+    margin: 0px 450px;
+    position: relative;
+    margin-top: 7%; 
+    background-color: rgb(255, 255, 255);
+    color: #0a2479;
+    text-align: left;
+    
+  }
+  .extrato{
+    width: 500px;
+    min-height: 150px;    
+    margin: 0px 450px;
+    position: relative;
+    margin-top: 7%; 
+    background-color: rgb(255, 255, 255);
+    color: #0a2479;
+    text-align: left;
+
+    
+  }
+
+  h1{
+    font-size: 48px;
+    color: #0a2479;
+    padding: 2px 0 10px 0;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(255, 255, 255);
+    font-size: 3em; color: #0a2479;
+
+  }
+  button{
+    position: relative;
+    text-align: center;
+    top: 0px;
+    width: 88%;   
+    background: #505252;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(153, 110, 110);
+  }
+  .links{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 0px;
+    height: 20px;
+    width: 740px;
+    padding: 17px 30px 20px 30px;
+    font-size: 16px;
+    text-align: right;
+   
+    -webkit-border-radius: 0 0  5px 5px;
+    border-radius: 0 0  5px 5px;
+  }
+  .links :hover { /* passando o cursor do mouse por cima de algum elemento*/
+    color: rgb(255, 255, 255);
+    background: #350ee0;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+    
