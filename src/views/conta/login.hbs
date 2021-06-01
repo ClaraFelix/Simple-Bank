@@ -1,0 +1,37 @@
+<div class="principal">
+    <div class="preenchimento" >     
+      <section id="entrar"> 
+      <!--Preenchimento do formulário de login-->
+      <!--Usuários/Clientes que já possuem cadastro no banco-->
+      <div id="login">
+        <form method="post" action=""> 
+          <h1>Simple Bank</h1> 
+          <p> 
+            <label for="emailparalogin">E-mail:</label>
+            <input row="6" style="width: 18em" id="emailparalogin" name="emailparalogin" required="required" type="text" placeholder="Ex.: emailcontado@simplebank.com.br"/>
+          </p>
+           
+          <p> 
+            <label for="senhadeacesso">Senha:</label>
+            <input row="6" style="width: 9em" id="senhadeacesso" name="senhadeacesso" required="required" type="password" placeholder="Ex.: Senha1234*#" /> 
+          </p>
+           
+          <p> 
+            <input type="checkbox" name="continuarlogado" id="continuarlogado" value="" /> 
+            <label for="continuarlogado">Manter-me logado</label>
+          </p>
+           
+          <p> 
+            <input type="submit" value="Acessar" /> 
+          </p>
+        <!--Encaminha o usuária a tela de cadastro para abrir uma conta no app-->
+          <p class="link">
+            Ainda não tem conta? 
+            <a id="btmcad" href="/conta/register" >Cadastre-se aqui</a>
+          
+          </p>
+        </form>
+      </div>
+</section>
+    
+    

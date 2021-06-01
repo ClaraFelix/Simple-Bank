@@ -1,0 +1,56 @@
+      <!--Preenchimento do formulário para cadastro-->
+      <!-- Realiza o cadastro de novos usuários/clientes do banco-->
+    <div class="preenchimentoregistro mt-1" > 
+      <section id="cadastro">
+        <div id="cadastrar">
+        <form method="post" action=""> 
+          <h1>Cadastro Simple Bank</h1> 
+           <div class="col-3 d-flex">
+          <div> 
+            <label for="nomeparacadastro">Nome:</label>
+            <input row="6" style="width: 18em" id= "nomeparacadastro" name="nome" required="required" type="text" placeholder="Ex.: João dos Santos Silva" />
+          </dic>
+          <div> 
+            <label for="emailparacadastro">E-mail:</label>
+            <input row="6" style="width: 18em" id="emailparacadastro" name="email" required="required" type="email" placeholder="Ex.: emailcontado@simplebank.com.br"/> 
+          </div>
+           
+          <div> 
+            <label for="senhaparacadastro">Senha:</label>
+            <input row="6" style="width: 9em"  id="senhaparacadastro" name="senha" required="required" type="password" placeholder="Ex.: Senha1234*#"/>
+          </div>
+        </div>
+        <div class="col-3 d-flex">
+          <div> 
+            <label for="confirmacaosenha">Confirmação da senha:</label>
+            <input row="6" style="width: 9em"  id="confirmacaosenha" name="confirmacaosenha" required="required" type="password"/>
+          </div>
+
+          <div>
+              <label for="telefoneparacontato">Contato:</label>
+              <input  row="6" style="width: 10em" id="telefoneparacontato" name="contato" required="required" type="number" placeholder="Ex.: (84)1234-5678"/>
+          </div>
+
+          <div>
+              <label for="agencia">Agência:</label>
+              <input  row="6" style="width: 6em" id="agencia" name="ag" required="required" type="number" placeholder="Ex.: 0758"/>
+          </div>
+           
+          <div>
+              <label for="numerodaconta">Número da conta:</label>
+              <input  row="6" style="width: 9em" id="numerodaconta" name="cc" required="required" type="number" placeholder="Ex.: 1234.5678"/>
+          </div>
+        </div>
+          <div> 
+            <input type="submit" value="Cadastrar"/> 
+          </div>
+           
+          <div class="link">  
+            Já tem conta?
+            <a id="btmlogin" href="/conta/login"> Ir para tela de Login </a>
+          </div>
+        </form>
+      </div>
+  </section>
+  </div>
+    
