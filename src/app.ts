@@ -5,6 +5,7 @@ import path from 'path';
 //Routes
 import indexRoutes from './routes';
 import taskRoutes from './routes/conta';
+import passport from 'passport';
 class Application{
 
     app: express.Application;
@@ -17,7 +18,7 @@ class Application{
     }
     //configurações
     settings(){
-        this.app.set('port',3000);
+        this.app.set('port',5000);
         this.app.set('views', path.join(__dirname,'views'));
         this.app.engine('.hbs',exphbs({
 	        layoutsDir: path.join(this.app.get('views'), 'layouts'),
@@ -40,7 +41,7 @@ Middleware é um software que fornece serviços e recursos comuns a aplicações
 	this.app.use(express.json());
 	//pegar dados do formulário via url 
 	this.app.use(express.urlencoded({extended: false}));
-
+    this.app.use(passport.initialize());
     }
 /*
 O Roteamento refere-se à definição de terminais do aplicativo (URIs) e como eles 
