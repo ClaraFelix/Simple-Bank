@@ -1,1 +1,25 @@
-<h1>Saldo</h1>
+<div class="preenchimento" >
+<div class="container">
+        <h1>Saldo da conta:</h1> 
+        {{#each conta}}
+        <table class="resultadosaldo" border="3">
+            <tr>
+                <th>Nome:</th>
+                <td row="6" style="width: 15em" >{{nome}}</td>
+            </tr>
+            <tr>
+                <th>Agência:</th>
+                <td>{{ag}}</td>
+            </tr>
+            <tr>
+                <th>Conta:</th>
+                <td>{{cc}}</td>
+            </tr>
+            <tr>
+                <th>Saldo:</th>
+                <td>{{saldo}}</td>
+            </tr>
+         </table>
+         {{/each}}
+</div>
+    </div>

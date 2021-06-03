@@ -14,18 +14,7 @@ body{
     text-align: left;
     
   }
-  .extrato{
-    width: 500px;
-    min-height: 150px;    
-    margin: 0px 450px;
-    position: relative;
-    margin-top: 7%; 
-    background-color: rgb(255, 255, 255);
-    color: #0a2479;
-    text-align: left;
-
-    
-  }
+  
 
   h1{
     font-size: 48px;
