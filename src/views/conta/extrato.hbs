@@ -1,0 +1,38 @@
+<div class="preenchimento" >
+    <div class="container">
+        <h1>Extrato da conta:</h1> 
+        {{#each conta}}
+        <table class="resultadoextrato" border="3">
+            <tr>
+                <th>Nome:</th>
+                <td row="6" style="width: 15em" >{{nome}}</td>
+            </tr>
+            <tr>
+                <th>Agência:</th>
+                <td>{{ag}}</td>
+            </tr>
+            <tr>
+                <th>Conta:</th>
+                <td>{{cc}}</td>
+            </tr>
+            <tr>
+                <th>Movimentações anteriores:</th>
+                <td>= R$ 0,00</td>
+            </tr>
+            <tr>
+                <th>Depositos:</th>
+                <td>= + R$ 0,00</td>
+            </tr>
+            <tr>
+                <th>Saques:</th>
+                <td>= - R$ 0,00</td>
+            </tr>
+            <tr>
+                <th>Saldo atual:</th>
+                <td><form method="POST"><a href="/conta/saldo"><button type="submit" style="width: 10em" id="btmextrato"> Consultar saldo </a></form></td>
+            </tr>
+         </table>
+         {{/each}}
+          
+       </div>
+</div>
